@@ -1,0 +1,87 @@
+:root {
+    --negro: #1f2029;
+    --negro-claro: #2a2b38;
+    --gris: #c4c3ca;
+    --dorado: #ffeba7;
+    --azul: #102770;
+}
+
+body {
+    background-color: var(--negro);
+}
+
+
+
+/*Estilos para Main*/
+section {
+    width:50%;
+    display: inline-block;
+    vertical-align: top; /* Alineación superior con el aside */
+}
+
+aside {
+    width: 40%;
+    margin: 20px 0 0 100px;
+    display: inline-block;
+    vertical-align: top; /* Alineación superior con el section */
+}
+
+
+
+/*Estilos para la Tabla */
+table {
+    border-collapse: collapse;
+    width: 100%; 
+    margin: 20px auto; 
+    font-family: Arial, sans-serif;
+    background-color: var(--negro)
+}
+
+th {
+    text-align: center;
+    padding: 8px; 
+    color: var(--dorado);
+    border: 1px solid var(--dorado);
+}
+
+td {
+    text-align: center;
+    padding: 12px; 
+    color: var(--gris);
+    border: 1px solid var(--dorado);
+}
+
+
+
+/* Estilos para el formulario */
+form {
+    padding: 20px;
+    border: 1px solid var(--dorado);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--dorado);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 97%;
+    padding: 8px;
+    margin:0 10px 10px 0;
+    outline: none;
+
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--dorado);
+    color: var(--negro);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}

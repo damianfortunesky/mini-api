@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Api - Frontend</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main>
+        <section>
+            
+            <table id="id_tabla">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                        <th>Contraseña</th>
+                    </tr>                        
+                </thead>
+
+                <tbody></tbody>
+            </table>
+    
+        </section>
+
+        <aside>
+
+                <form id="formulario">
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required><br>
+        
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" required><br>
+        
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" required><br>
+        
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" required><br>
+        
+                    <input type="submit" value="Agregar a la Tabla">
+                </form>    
+
+        </aside>
+
+    </main>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
